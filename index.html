@@ -8,21 +8,37 @@
   </head>
   <body>
     <h1>BlackJack 21</h1>
-    <div class="newGame">
+    <button  class = "btns" id="rulesBtn"> Rules </button>
+
+    <!-- <div id= "rulesModal" class="modal">
+
+      <div class="rules-content">
+        <span class = "close">&times </span>
+        <h2>Instructions</h2>
+        <p>Instructions for game </p>
+      </div> -->
+
+    </div>
+    <div  class = "btns" id="newGame">
       <button type="button" id="newGameBtn">New Game</button>
     </div>
-    <div class="gameBtns">
+    <div class="btns" id ="gameBtns" hidden>
       <button type="button" id="hitBtn">Hit</button>
       <button type="button" id="stayBtn">Stay</button>
     </div>
     <table>
       <tr>
         <td>Dealer Cards</td>
+        <td id ="dealerhand">Dealer Cards Shown Here</td>
       </tr>
       <tr>
         <td>Player Cards</td>
+        <td id ="playerhand">Player Cards Shown Here</td>
       </tr>
     </table>
+    <div class="btns" id="score">
+      <p>Win: <br>Lose: </p>
+    </div>
 
 
   </body>

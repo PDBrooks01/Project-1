@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background: lightgrey;
+}
+
+h1 {
+    text-align: center;
+    color: royalblue;
+}
+
+table {
+    background-color: darkgreen;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 600px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    display: table;
+    padding: 10px;
+  }
+
+td {
+    color: gold;
+}
+
+div.btns{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 10px
+  }
+
+  button {
+    font-size: 18px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    border: 2px solid royalblue;
+    font-weight: bold;
+    border-radius: 6px;
+  }
+  button#rulesBtn{
+    border-color: royalblue;
+  }
+
+  button#newGame
+  {
+      background-color: green;
+      width: 200px;
+  }
+
+
+  button#hitBtn
+  {
+      background-color: green;
+      width: 70px;
+  }
+
+  button#stayBtn
+  {
+      background-color: yellow;
+      width: 70px;
+  }
+
+  #score
+  {
+      border: 4px dotted royalblue;
+  }
+  #score p{
+      font-size: 25px;
+      font-weight: bold;
+  }
